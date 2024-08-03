@@ -1,0 +1,1 @@
+SELECT Class , Gender , Count(Class) , Count(Gender) FROM TABLE GROUP BY Count(Class) , Count(Gender) ORDER BY Class , Gender ; 
